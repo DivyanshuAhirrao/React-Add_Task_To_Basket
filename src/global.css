@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar{
+    background-color: rgb(52, 51, 51);
+    height: 75px;
+    width: 100%;
+    border-bottom: 2px solid rgb(118, 118, 118);
+}
+#navbar > nav {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+.nav h1 {
+    color: yellow;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.flex-container{
+    width: 90%;
+    margin: 20px auto;
+    background-color: #607d8b60;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    height: 80vh;
+}
+.flex-container > section{
+    flex: 1;
+    background-color: #00000029;
+    padding: 10px;
+}
+.flex-container > section h2{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: yellow;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(81, 99, 8, 0.594);
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#form form label{
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    color: white;
+    font-weight: 500;
+}
+#form form input, #form form textarea{
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #585858a9;
+}
+form button{
+    background-color: yellow;
+    color: #111;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgb(107, 107, 107);
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.25s ease;
+}
+form button:hover{
+    background-color: transparent;
+    border: 1px solid yellow;
+    color: yellow;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+.container{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.034);
+    border-bottom: 1px solid #444;
+}
+.container h3{
+    padding: 10px 0;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.container p{
+    color: #777;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.container:last-child{
+    border: none;
+}
